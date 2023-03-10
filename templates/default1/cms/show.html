@@ -1,0 +1,57 @@
+{include file="header" /}
+{neq name=":config('web_site_image')" value=""}
+<img src="{:config('web_site_image')}" class="topimage">
+{/neq}
+
+<div class="list-box clear w128">
+    {include file="sider" /}
+    <div class="list-r">
+        <div class="position">
+            <h5>{$catname}</h5>
+            <p>位置：
+                <a href="{$siteurl}">首页</a>
+                &gt;
+                {:catpos($catid)}
+            </p>
+            <div class="list-nav-icon"><img src="__IMG_PATH__/list-nav03.png"></div>
+        </div>
+        <div class="list03">
+            <div class="show01">
+                <h5>{$title}</h5>
+                <p>
+                    <i>发布时间：{$inputtime|date='Y-m-d H:i'}</i><i></i>
+                    <i>浏览次数：<span id="dynclicks_wbnews_1415_291" name="dynclicks_wbnews_1415_291">{$hits}</span>次</i>
+                </p>
+            </div>
+
+            <div id="vsb_content">
+                <div class="show02">
+                    {eq name="allow_visitor" value="1"}
+                    {$content|raw}
+                    {else/}
+                    <div class="allow_visitor">
+                        <a href="{:url('cms/index/readpoint',['allow_visitor' => $allow_visitor])}"><font color="red">阅读此信息需要您支付 <B><I>{$readpoint} {if $paytype}元{else}点{/if}</I></B>，点击这里支付</font></a>
+                    </div>
+                    {/eq}
+                    <!--S 分页-->
+                    {$pages|raw}
+                    <!--E 分页-->
+                </div>
+            </div>
+            <div class="viewpage">
+                <div class="main_r_nav">
+                    {yzn module="cms" action="pre" catid="$catid" id="$id" cache="3600" return="data"}
+                    <a href="{$data.url}" {$data.target}>上一篇：{$data.title}</a>
+                    {/yzn}
+                    {yzn module="cms" action="next" catid="$catid" id="$id" cache="3600" return="data"}
+                    <a href="{$data.url}" {$data.target}>下一篇：{$data.title}</a>
+                    {/yzn}
+                </div>
+                <div class="returnlist"> <a href="javascript:history.go(-1);" title="返回列表">返回列表</a> </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+{include file="footer" /}

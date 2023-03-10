@@ -1,0 +1,47 @@
+{include file="header" /}
+
+{neq name=":config('web_site_image')" value=""}
+<img src="{:config('web_site_image')}" class="topimage">
+{/neq}
+
+<div class="list-box clear w128">
+    {include file="sider" /}
+    <div class="list-r">
+        <div class="position">
+            <h5>{$catname}</h5>
+            <p>位置：
+                <a href="{$siteurl}">首页</a>
+                &gt;
+                {:catpos($catid)}
+            </p>
+            <div class="list-nav-icon"><img src="__IMG_PATH__/list-nav03.png"></div>
+        </div>
+        <div class="list03">
+            <ul>
+                {include file="category_ajax" /}
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function() {
+    $(document).on("click", ".btn-loadmore", function() {
+        var that = this;
+        var page = parseInt($(this).data("page"));
+        page++;
+        $(that).prop("disabled", true);
+        $.ajax({
+            url: $(that).attr("href"),
+            type: "post",
+            success: function(res) {
+                $('.list').append(res.data);
+                $(that).remove();
+                return false;
+            },
+        });
+        return false;
+    })
+});
+</script>
+{include file="footer" /}

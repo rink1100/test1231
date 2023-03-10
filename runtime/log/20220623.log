@@ -1,0 +1,46 @@
+---------------------------------------------------------------
+
+[2022-06-23T09:42:43+08:00] 127.0.0.1 GET xdnyjqrsys.cc/
+[运行时间：0.381645s] [吞吐率：2.62req/s] [内存消耗：4,901.05kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\index.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'SEO',
+  7 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql

@@ -1,0 +1,202 @@
+{include file="header" /}
+<link rel="stylesheet" href="__JS_PATH__/swiper-bundle.min.css">
+<link rel="stylesheet" href="__CSS_PATH__/font.css">
+<div  id="ups-banner">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            {yzn module="cms" flag="4" cache="600" action="lists" catid="22" order="listorder DESC" num="10" return="data"}
+            {volist name="data" id="vo"}
+            <div class="swiper-slide">
+                <img src="{$vo.thumb|default='https://via.placeholder.com/380x285'}">
+            </div>
+            {/volist}
+            {/yzn}
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<script src="__JS_PATH__/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        cssMode: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+    });
+</script>
+
+<section class="newsNotice">
+    <div class="w128 clear">
+        <div class="news fl">
+            <div class="sameTitle clear">
+                <h4>新闻动态 <span>News</span></h4>
+                <a href="c">更多+</a>
+            </div>
+            <div class="newsCon clear">
+                {yzn module="cms" flag="4" cache="600" action="lists" catid="24" order="listorder DESC" num="3" return="data"}
+                {volist name="data" id="vo" key="k"}
+                {eq name="k" value="1"}
+                <div class="leftNews fl">
+                    <a href="{$vo.url}">
+                        <div class="pic slow"><img src="{$vo.thumb|default='https://via.placeholder.com/380x285'}"></div>
+                        <div class="text">
+                            <p class="clam1">{$vo.title}</p>
+                            <span class="clam2">{$vo.description|str_cut=###,100}</span>
+                            <i>{$vo.inputtime|date="Y-m-d"}</i>
+                        </div>
+                    </a>
+                </div>
+                {/eq}
+                {eq name="k" value="2"}
+                <div class="rightNews fr"><ul>
+                {/eq}
+                {gt name="k" value="1"}
+                    <li>
+                        <a href="{$vo.url}">
+                            <div class="pic slow">
+                                <img src="{$vo.thumb|default='https://via.placeholder.com/380x285'}">
+                                <i>{$vo.inputtime|date="Y-m-d"}</i>
+                            </div>
+                            <h3><p class="clam2">{$vo.title}</p></h3>
+                        </a>
+                    </li>
+                {/gt}
+                {eq name="k" value="3"}
+                    </ul></div>
+                {/eq}
+                {/volist}
+                {/yzn}
+            </div>
+        </div>
+        <div class="notice fr">
+            <div class="sameTitle clear">
+                <h4>通知公告</h4>
+                <a href="{:url('/lists/25')}">更多+</a>
+            </div>
+            <ul>
+                {yzn module="cms" flag="4" cache="600" action="lists" catid="25" order="listorder DESC" num="6" return="data"}
+                {volist name="data" id="vo" key="k"}
+                <li>
+                    <a class="clear" href="{$vo.url}">
+                        <div class="date"><i>{$vo.inputtime|date="d"}</i><b>{$vo.inputtime|date="Y-m"}</b></div>
+                        <p class="clam2">{$vo.title}</p>
+                    </a>
+                </li>
+                {/volist}
+                {/yzn}
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<div class="Academic">
+    <div class="w128">
+        <div class="sameTitle clear">
+            <h4>研究成果<span>Research findings</span></h4>
+            <a href="{:url('/lists/32')}">更多+</a>
+        </div>
+        <div class="AcademicCOn">
+            <ul>
+                {yzn module="cms" flag="4" cache="600" action="lists" catid="32" order="listorder DESC" num="4" return="data"}
+                {volist name="data" id="vo" key="k"}
+                <li>
+                    <a href="{$vo.url}">
+                        <div class="pic slow"><img src="{$vo.thumb|default='https://via.placeholder.com/380x285'}"></div>
+                        <div class="text">
+                            <div class="date"><i>{$vo.inputtime|date="d"}</i><b>{$vo.inputtime|date="Y-m"}</b></div>
+                            <h4 class="clam2">{$vo.title}</h4>
+                            <div class="inf">
+                                <p></p>
+                                <p> </p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                {/volist}
+                {/yzn}
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<section class="xsdtBOx" style="margin-top: 30px;">
+    <div class="w128">
+        <div class="sameTitle clear">
+            <h4>合作交流<span>Cooperation and exchange </span></h4>
+            <a href="{:url('/lists/44')}">更多+</a>
+        </div>
+
+        {yzn module="cms" flag="4" cache="600" action="lists" catid="44" order="listorder DESC" num="5" return="data"}
+        {volist name="data" id="vo" key="k"}
+        {eq name="k" value="1"}
+        <ul class="xsdt-l clear">
+        {/eq}
+        {eq name="k" value="4"}
+        <ul class="xsdt-l clear">
+        {/eq}
+        {lt name="k" value="3"}
+            <li>
+                <a href="{$vo.url}">
+                    <div class="pic"><img src="{$vo.thumb|default='https://via.placeholder.com/380x285'}"></div>
+                    <div class="text">
+                        <p class="clam1">{$vo.title}</p>
+                        <div class="sj">{$vo.inputtime|date="Y年m月d日"}</div>
+                    </div>
+                </a>
+            </li>
+        {/lt}
+        {gt name="k" value="3"}
+        <li>
+            <a href="{$vo.url}">
+                <div class="pic"><img src="{$vo.thumb|default='https://via.placeholder.com/380x285'}"></div>
+                <div class="text">
+                    <p class="clam1">{$vo.title}</p>
+                    <div class="sj">{$vo.inputtime|date="Y年m月d日"}</div>
+                </div>
+            </a>
+        </li>
+        {/gt}
+        {eq name="k" value="2"}
+        </ul>
+        {/eq}
+        {eq name="k" value="5"}
+        </ul>
+        {/eq}
+        {eq name="k" value="3"}
+        <div class="xsdt-c">
+            <a href="{$vo.url}">
+                <div class="pic"><img src="{$vo.thumb|default='https://via.placeholder.com/380x285'}"></div>
+                <div class="text">
+                    <p class="clam1">{$vo.title}</p>
+                    <span class="clam3"></span>
+                    <div class="sj">{$vo.inputtime|date="Y年m月d日"}</div>
+                </div>
+            </a>
+        </div>
+        {/eq}
+        {/volist}
+        {/yzn}
+    </div>
+    <div class="clear"></div>
+    </div>
+</section>
+<div class="link">
+    <div class="w128">
+        <dl class="clear">
+            <dt>友情链接:</dt>
+            <dd><a href="http://www.baidu.com/" target="_blank">百度</a></dd>
+        </dl>
+    </div>
+</div>
+{include file="footer" /}

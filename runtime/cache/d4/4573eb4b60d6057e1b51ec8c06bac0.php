@@ -1,0 +1,4 @@
+<?php
+//000000003600
+ exit();?>
+think_serialize:a:17:{s:2:"id";i:57;s:7:"catname";s:12:"投资案例";s:6:"catdir";s:4:"anli";s:4:"type";i:2;s:7:"modelid";i:2;s:8:"parentid";i:0;s:11:"arrparentid";s:1:"0";s:10:"arrchildid";s:2:"57";s:5:"child";i:0;s:5:"image";s:0:"";s:4:"icon";s:0:"";s:11:"description";s:12:"投资案例";s:3:"url";s:14:"/lists/57.html";s:5:"items";i:11;s:7:"setting";a:6:{s:10:"meta_title";s:0:"";s:13:"meta_keywords";s:0:"";s:16:"meta_description";s:0:"";s:17:"category_template";s:21:"category_picture.html";s:13:"list_template";s:17:"list_picture.html";s:13:"show_template";s:17:"show_picture.html";}s:9:"listorder";i:100;s:6:"status";i:1;}

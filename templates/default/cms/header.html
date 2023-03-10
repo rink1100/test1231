@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <title>{if condition="isset($SEO['title']) && !empty($SEO['title'])"}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+    <meta name="keywords" content="{$SEO['keyword']}" />
+    <meta name="description" content="{$SEO['description']}" />
+
+    <link rel="stylesheet" href="__JS_PATH__/amazeui/dist/css/amazeui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="__JS_PATH__/fullPage/dist/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="__CSS_PATH__/app.css" />
+    <link rel="stylesheet" href="__CSS_PATH__/animate.min.css" />
+
+
+    <!--[if lt IE 9]>
+    <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+    <script src="__JS_PATH__/amazeui/dist/js/amazeui.ie8polyfill.min.js"></script>
+    <![endif]-->
+
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script src="__JS_PATH__/jquery.min.js"></script>
+    <!--<![endif]-->
+    <script src="__JS_PATH__/amazeui/dist/js/amazeui.min.js"></script>
+    <script src="__JS_PATH__/app.js"></script>
+
+    <script type="text/javascript" src="__JS_PATH__/fullPage/dist/fullpage.js"></script>
+    <!--[if IE]>
+    <script type="text/javascript">
+        var console = { log: function() {} };
+    </script>
+    <![endif]-->
+    <link rel="stylesheet" href="__JS_PATH__/swiper/swiper-bundle.min.css" />
+    <script src="__JS_PATH__/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+
+<header class="am-topbar am-topbar-inverse admin-header am-header-fixed header1">
+    <div class="am-topbar-brand">
+        LOGO
+    </div>
+
+    <div class="operater">
+        <ul class="mmenu">
+            <li class="li1"></li>
+            <li ></li>
+            <li class="li2"></li>
+        </ul>
+    </div>
+</header>
+
+<div class="menu-container active">
+    <header class="am-topbar am-topbar-inverse admin-header header2">
+        <div class="am-topbar-brand">
+            LOGO
+        </div>
+        <div class="operater">
+            <div class="close"></div>
+        </div>
+    </header>
+    <ul id="menu" class="menu">
+        <li class="title">MENU</li>
+        <li data-menuanchor="1" class="active">
+            <a href="#1"><span class="num">01</span> <span class="line">-</span> <span class="t">首页</span></a>
+        </li>
+        <li data-menuanchor="2">
+            <a href="#2"><span class="num">02</span> <span class="line">-</span> <span class="t">宣传视频</span></a></li>
+        <li data-menuanchor="3">
+            <a href="#3"><span class="num">03</span> <span class="line">-</span> <span class="t">关于我们</span></a>
+            <div class="child">
+                <a href="#3">团队简介</a>
+                <a href="#3/1">人物介绍</a>
+                <a href="#3/2">发展历程</a>
+            </div>
+        </li>
+        <li data-menuanchor="4">
+            <a href="#4"><span class="num">04</span> <span class="line">-</span> <span class="t">团队荣誉</span></a></li>
+        <li data-menuanchor="5">
+            <a href="#5"><span class="num">05</span> <span class="line">-</span> <span class="t">投资案例</span></a></li>
+        <li data-menuanchor="6">
+            <a href="#6"><span class="num">06</span> <span class="line">-</span> <span class="t">新闻资讯</span></a>
+        </li>
+    </ul>
+    <div class="foot">
+        <div class="container">
+            <div class="l">
+                <div class="">0571- 88990588</div>
+                <div class="">88990588zhanwei@gmail.com</div>
+            </div>
+            <div class="r">
+                <div class="">城星路128号钱江国际时代广场1-1508室 310020，中国杭州</div>
+                <div class="">Copyright@2019 PIMCO AlI Rights Roserved</div>
+            </div>
+        </div>
+    </div>
+</div>

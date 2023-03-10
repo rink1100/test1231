@@ -1,0 +1,4027 @@
+---------------------------------------------------------------
+
+[2022-04-13T09:40:08+08:00] 127.0.0.1 GET xdnyjqrsys.cc/
+[运行时间：0.342928s] [吞吐率：2.92req/s] [内存消耗：4,838.05kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\index.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'SEO',
+  7 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T09:40:33+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/19.html
+[运行时间：0.111985s] [吞吐率：8.93req/s] [内存消耗：4,642.17kb] [文件加载：133]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '19',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '19',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\page.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => '',
+  7 => 'catname',
+  8 => 'catdir',
+  9 => 'type',
+  10 => 'modelid',
+  11 => 'parentid',
+  12 => 'arrparentid',
+  13 => 'arrchildid',
+  14 => 'child',
+  15 => 'image',
+  16 => 'icon',
+  17 => 'description',
+  18 => 'url',
+  19 => 'items',
+  20 => 'setting',
+  21 => 'listorder',
+  22 => 'status',
+  23 => 'top_parentid',
+  24 => 'SEO',
+  25 => 'catid',
+  26 => 'page',
+) ]
+[ error ] [8]未定义变量: title[D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\runtime\temp\49e1b6608ebfe73616f84641f0460e9c.php:107]
+[ error ] [8]未定义变量: content[D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\runtime\temp\49e1b6608ebfe73616f84641f0460e9c.php:109]
+---------------------------------------------------------------
+
+[2022-04-13T09:40:36+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/20.html
+[运行时间：0.107589s] [吞吐率：9.29req/s] [内存消耗：4,637.19kb] [文件加载：133]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '20',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/19.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '20',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\page.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => '',
+  7 => 'catname',
+  8 => 'catdir',
+  9 => 'type',
+  10 => 'modelid',
+  11 => 'parentid',
+  12 => 'arrparentid',
+  13 => 'arrchildid',
+  14 => 'child',
+  15 => 'image',
+  16 => 'icon',
+  17 => 'description',
+  18 => 'url',
+  19 => 'items',
+  20 => 'setting',
+  21 => 'listorder',
+  22 => 'status',
+  23 => 'top_parentid',
+  24 => 'SEO',
+  25 => 'catid',
+  26 => 'page',
+) ]
+[ error ] [8]未定义变量: title[D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\runtime\temp\49e1b6608ebfe73616f84641f0460e9c.php:107]
+[ error ] [8]未定义变量: content[D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\runtime\temp\49e1b6608ebfe73616f84641f0460e9c.php:109]
+---------------------------------------------------------------
+
+[2022-04-13T09:40:38+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/21.html
+[运行时间：0.099091s] [吞吐率：10.09req/s] [内存消耗：4,642.50kb] [文件加载：133]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '21',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/20.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\page.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => '',
+  7 => 'catname',
+  8 => 'catdir',
+  9 => 'type',
+  10 => 'modelid',
+  11 => 'parentid',
+  12 => 'arrparentid',
+  13 => 'arrchildid',
+  14 => 'child',
+  15 => 'image',
+  16 => 'icon',
+  17 => 'description',
+  18 => 'url',
+  19 => 'items',
+  20 => 'setting',
+  21 => 'listorder',
+  22 => 'status',
+  23 => 'top_parentid',
+  24 => 'SEO',
+  25 => 'catid',
+  26 => 'page',
+) ]
+[ error ] [8]未定义变量: title[D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\runtime\temp\49e1b6608ebfe73616f84641f0460e9c.php:107]
+[ error ] [8]未定义变量: content[D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\runtime\temp\49e1b6608ebfe73616f84641f0460e9c.php:109]
+---------------------------------------------------------------
+
+[2022-04-13T09:40:39+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/24.html
+[运行时间：0.125714s] [吞吐率：7.95req/s] [内存消耗：4,603.64kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '24',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/21.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '24',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\list.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T09:40:42+08:00] 127.0.0.1 GET xdnyjqrsys.cc/shows/24/9.html
+[运行时间：0.113678s] [吞吐率：8.80req/s] [内存消耗：4,631.82kb] [文件加载：132]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'shows/<catid>/<id>',
+  'route' => 'cms/index/shows',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '24',
+    'id' => '9',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/24.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '24',
+  'id' => '9',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\show.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'pages',
+  7 => 'id',
+  8 => 'catid',
+  9 => 'title',
+  10 => 'thumb',
+  11 => 'flag',
+  12 => 'keywords',
+  13 => 'description',
+  14 => 'tags',
+  15 => 'listorder',
+  16 => 'uid',
+  17 => 'username',
+  18 => 'sysadd',
+  19 => 'hits',
+  20 => 'inputtime',
+  21 => 'updatetime',
+  22 => 'url',
+  23 => 'status_text',
+  24 => 'status',
+  25 => 'did',
+  26 => 'content',
+  27 => 'category',
+  28 => 'readpoint',
+  29 => 'allow_visitor',
+  30 => 'top_parentid',
+  31 => 'arrparentid',
+  32 => 'SEO',
+  33 => 'page',
+  34 => 'modelid',
+) ]
+[ error ] [8]未定义变量: catname[D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\runtime\temp\9eede82995dce9c6e47540e8baae31ba.php:98]
+---------------------------------------------------------------
+
+[2022-04-13T09:40:45+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/26.html
+[运行时间：0.105832s] [吞吐率：9.45req/s] [内存消耗：4,540.21kb] [文件加载：130]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '26',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/shows/24/9.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '26',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\page.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catid',
+  7 => 'title',
+  8 => 'keywords',
+  9 => 'description',
+  10 => 'content',
+  11 => 'thumb',
+  12 => 'inputtime',
+  13 => 'updatetime',
+  14 => 'catname',
+  15 => 'catdir',
+  16 => 'type',
+  17 => 'modelid',
+  18 => 'parentid',
+  19 => 'arrparentid',
+  20 => 'arrchildid',
+  21 => 'child',
+  22 => 'image',
+  23 => 'icon',
+  24 => 'url',
+  25 => 'items',
+  26 => 'setting',
+  27 => 'listorder',
+  28 => 'status',
+  29 => 'top_parentid',
+  30 => 'SEO',
+  31 => 'page',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T09:40:46+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/29.html
+[运行时间：0.091368s] [吞吐率：10.94req/s] [内存消耗：4,520.34kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '29',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/26.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '29',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\category.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T09:40:47+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/31.html
+[运行时间：0.117767s] [吞吐率：8.49req/s] [内存消耗：4,523.73kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '31',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/29.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '31',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\category.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T09:40:48+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/35.html
+[运行时间：0.115946s] [吞吐率：8.62req/s] [内存消耗：4,520.36kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '35',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/31.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '35',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\category.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T09:40:49+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/38.html
+[运行时间：0.088962s] [吞吐率：11.24req/s] [内存消耗：4,520.36kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '38',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/35.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '38',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\category.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T09:40:49+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/41.html
+[运行时间：0.104198s] [吞吐率：9.60req/s] [内存消耗：4,520.36kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '41',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/38.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '41',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\category.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T09:46:44+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/31.html
+[运行时间：0.100663s] [吞吐率：9.93req/s] [内存消耗：4,523.58kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '31',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/41.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '31',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\category.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T09:46:45+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/35.html
+[运行时间：0.089366s] [吞吐率：11.19req/s] [内存消耗：4,520.20kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '35',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/31.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '35',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\category.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T09:46:46+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/38.html
+[运行时间：0.088156s] [吞吐率：11.34req/s] [内存消耗：4,520.20kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '38',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/35.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '38',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\category.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T09:46:46+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/41.html
+[运行时间：0.083194s] [吞吐率：12.02req/s] [内存消耗：4,520.20kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '41',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/38.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '41',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\category.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T12:20:20+08:00] 127.0.0.1 GET xdnyjqrsys.cc/
+[运行时间：0.225836s] [吞吐率：4.43req/s] [内存消耗：4,838.36kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\index.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'SEO',
+  7 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T12:20:20+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin
+[运行时间：0.100394s] [吞吐率：9.96req/s] [内存消耗：4,416.77kb] [文件加载：128]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\application\common\view\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T12:20:22+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin/index/login.html
+[运行时间：0.045476s] [吞吐率：21.99req/s] [内存消耗：2,891.14kb] [文件加载：114]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\admin\view\index\login.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T12:20:26+08:00] 127.0.0.1 POST xdnyjqrsys.cc/admin/index/login.html
+[运行时间：0.061954s] [吞吐率：16.14req/s] [内存消耗：4,254.51kb] [文件加载：126]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin/index/login.html',
+  'origin' => 'http://xdnyjqrsys.cc',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '74',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '7b212d7d53c3975fc092d19172af74ab',
+  'username' => 'admin',
+  'password' => 'a123456',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T12:20:28+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin/index/index.html
+[运行时间：0.267845s] [吞吐率：3.73req/s] [内存消耗：4,444.94kb] [文件加载：127]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'SUBMENU_CONFIG',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T12:20:28+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin/main/index.html
+[运行时间：0.085291s] [吞吐率：11.72req/s] [内存消耗：4,214.69kb] [文件加载：121]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\admin\view\main\index.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'sys_info',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T12:20:52+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin/index/index.html
+[运行时间：0.081764s] [吞吐率：12.23req/s] [内存消耗：4,371.74kb] [文件加载：127]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'SUBMENU_CONFIG',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T12:20:52+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin/main/index.html
+[运行时间：0.060336s] [吞吐率：16.57req/s] [内存消耗：4,214.82kb] [文件加载：121]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\admin\view\main\index.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'sys_info',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:05:03+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin
+[运行时间：0.288883s] [吞吐率：3.46req/s] [内存消耗：4,444.79kb] [文件加载：127]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'SUBMENU_CONFIG',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:05:03+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin/main/index.html
+[运行时间：0.074656s] [吞吐率：13.39req/s] [内存消耗：3,941.75kb] [文件加载：118]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\admin\view\main\index.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'sys_info',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:05:06+08:00] 127.0.0.1 GET xdnyjqrsys.cc/cms/publish/index/menuid/89.html
+[运行时间：0.050633s] [吞吐率：19.75req/s] [内存消耗：3,504.56kb] [文件加载：121]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '89',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\cms\view\publish\index.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:05:06+08:00] 127.0.0.1 GET xdnyjqrsys.cc/cms/publish/index.html?page=1&limit=10
+[运行时间：0.055697s] [吞吐率：17.95req/s] [内存消耗：4,382.79kb] [文件加载：125]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/cms/publish/index/menuid/89.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:05:07+08:00] 127.0.0.1 GET xdnyjqrsys.cc/cms/cms/index/menuid/76.html
+[运行时间：0.074637s] [吞吐率：13.40req/s] [内存消耗：4,553.59kb] [文件加载：126]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '76',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\cms\view\cms\index.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'cmsConfig',
+  4 => 'json',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:05:07+08:00] 127.0.0.1 GET xdnyjqrsys.cc/cms/cms/panl.html
+[运行时间：0.091594s] [吞吐率：10.92req/s] [内存消耗：4,587.41kb] [文件加载：128]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/cms/cms/index/menuid/76.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\cms\view\cms\panl.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'cmsConfig',
+  4 => 'xAxisData',
+  5 => 'seriesData',
+  6 => 'info',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:05:12+08:00] 127.0.0.1 GET xdnyjqrsys.cc/cms/cms/classlist/catid/32.html
+[运行时间：0.073879s] [吞吐率：13.54req/s] [内存消耗：4,593.20kb] [文件加载：127]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/cms/cms/index/menuid/76.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\cms\view\cms\classlist.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'cmsConfig',
+  4 => 'string',
+  5 => 'catid',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:05:12+08:00] 127.0.0.1 GET xdnyjqrsys.cc/cms/cms/classlist/catid/32.html?page=1&limit=10
+[运行时间：0.074961s] [吞吐率：13.34req/s] [内存消耗：4,462.57kb] [文件加载：124]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/cms/cms/classlist/catid/32.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'catid' => '32',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:05:14+08:00] 127.0.0.1 GET xdnyjqrsys.cc/cms/cms/edit/catid/32.html?id=22&dialog=1
+[运行时间：0.084757s] [吞吐率：11.80req/s] [内存消耗：4,538.81kb] [文件加载：126]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/cms/cms/classlist/catid/32.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '22',
+  'dialog' => '1',
+  'catid' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\cms\view\cms\edit.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'cmsConfig',
+  4 => 'catid',
+  5 => 'id',
+  6 => 'fieldList',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:05:14+08:00] 127.0.0.1 GET xdnyjqrsys.cc/attachment/upload/upload/dir/images/from/ueditor.html?action=config&&noCache=1649826314722
+[运行时间：0.041603s] [吞吐率：24.04req/s] [内存消耗：2,618.95kb] [文件加载：104]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/cms/cms/edit/catid/32.html?id=22&dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1649826314722',
+  'dir' => 'images',
+  'from' => 'ueditor',
+)
+---------------------------------------------------------------
+
+[2022-04-13T13:05:17+08:00] 127.0.0.1 POST xdnyjqrsys.cc/attachment/upload/upload/dir/images/from/ueditor.html?action=catchimage&
+[运行时间：0.034642s] [吞吐率：28.87req/s] [内存消耗：2,621.43kb] [文件加载：104]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/cms/cms/edit/catid/32.html?id=22&dialog=1',
+  'origin' => 'http://xdnyjqrsys.cc',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'content-length' => '769',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'catchimage',
+  'source' => 
+  array (
+    0 => 'https://auto.nuist.edu.cn/_upload/article/images/d4/c1/1cbf17dc442a83c2be1be91d83ee/8baed655-10e2-475a-a5ea-e4dfec862539.jpg',
+    1 => 'https://auto.nuist.edu.cn/_upload/article/images/d4/c1/1cbf17dc442a83c2be1be91d83ee/b9f4ee9a-c35a-4ce1-92de-f74ba18ed0d1.jpg',
+    2 => 'https://auto.nuist.edu.cn/_upload/article/images/d4/c1/1cbf17dc442a83c2be1be91d83ee/01537c4f-03df-4e6c-a3da-c428300fe0e2.jpg',
+    3 => 'https://auto.nuist.edu.cn/_upload/article/images/d4/c1/1cbf17dc442a83c2be1be91d83ee/118e0d29-03e1-4e12-8032-ae461e326d58.jpg',
+    4 => 'https://auto.nuist.edu.cn/_upload/article/images/d4/c1/1cbf17dc442a83c2be1be91d83ee/249b300d-d3e2-474a-8d76-6345f13559c0.jpg',
+  ),
+  'dir' => 'images',
+  'from' => 'ueditor',
+)
+---------------------------------------------------------------
+
+[2022-04-13T13:05:24+08:00] 127.0.0.1 POST xdnyjqrsys.cc/cms/cms/edit/catid/32.html?id=22&dialog=1
+[运行时间：0.099024s] [吞吐率：10.10req/s] [内存消耗：4,607.29kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/cms/cms/edit/catid/32.html?id=22&dialog=1',
+  'origin' => 'http://xdnyjqrsys.cc',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '9194',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+)
+[ info ] [ PARAM ] array (
+  'id' => '22',
+  'dialog' => '1',
+  'modelField' => 
+  array (
+    'id' => '22',
+    'catid' => '32',
+    'title' => 's水水水水水水的发射点',
+    'keywords' => '',
+    'description' => '',
+    'tags' => '',
+    'listorder' => '100',
+    'status' => '1',
+    'get_introduce' => 'on',
+    'auto_thumb' => 'on',
+    'thumb' => '/uploads/images/20220412/c60aecf100ef7f94bb4a0e67ef223b20.jpg',
+    'inputtime' => '2022-04-12 15:20:17',
+    'hits' => '0',
+    'url' => '',
+  ),
+  'modelFieldExt' => 
+  array (
+    'content' => '<div style="font-family: Arial, &quot;times new roman&quot;, Helvetica, sans-serif; padding: 0px; margin: 0px; box-sizing: border-box; font-size: 15px; white-space: normal;"><div class="show02" style="padding: 0px 0px 0.1rem; margin: 0px 0px 0.2125rem; box-sizing: border-box; border-bottom: 0px solid rgb(217, 217, 217);"><div class="main" style="font-family: Arial, &quot;Microsoft YaHei&quot;, u5b8bu4f53, Tahoma, Geneva, sans-serif; padding: 10px 5px; margin: 0px auto; box-sizing: border-box; width: 1090px; height: auto; overflow: hidden; color: rgb(51, 51, 51); font-size: 13px;"><div class="right_main" style="font-family: Arial, &quot;times new roman&quot;, Helvetica, sans-serif; padding: 0px; margin: 0px; box-sizing: border-box; width: 860px; float: right !important;"><div class="content" style="padding: 17.2px; margin: 0px; box-sizing: border-box; font-size: 14px; line-height: 28px; width: 825.6px; min-height: 400px;"><div class="wp_single wp_column_article" style="padding: 0px; margin: 0px; box-sizing: border-box;"><div class="wp_entry" style="padding: 0px; margin: 0px; box-sizing: border-box; width: 825.6px; line-height: 1.7em; font-size: 13px; overflow: hidden;"><div class="wp_articlecontent" style="padding: 0px; margin: 0px; box-sizing: border-box;"><div class="paging_content" style="padding: 0px; margin: 0px; box-sizing: border-box;"><p style="padding: 0px; margin-top: 0px; margin-bottom: 15px; box-sizing: border-box; font-size: 16px; line-height: 1.75; text-indent: 0em; text-align: justify;">&nbsp; &nbsp; &nbsp; &nbsp;本实验室共有工业机器人创意组合应用平台5套，每套包括工业机器人本体(ABB机械臂)、工业机器人控制器和示教器三部分。机器人本体和其他单元配合负责完成装配、轨迹模拟、弧焊、搬运、抛光打磨等模块进行各种实训的集成平台。它主要为机器人专业的学生提供一个开放式的平台，更多的让老师、学生参与进来，充分发挥每个工作站的最大功能来进行示教教学。学生可以根据任务不同，选择不同的工作站，也可以选择固定的工作站来制定不同的任务。</p><p style="padding: 0px; margin-top: 0px; margin-bottom: 15px; box-sizing: border-box; font-size: 16px; line-height: 1.75; text-indent: 0em; text-align: justify;">&nbsp; &nbsp; &nbsp; &nbsp;实验室面向公众开放，您可以通过预约方式来参观，并在工作人员的指导下实际操作机器人，完成比如堆汉诺塔、机器人绘画等趣味游戏。</p><p style="padding: 0px; margin-top: 0px; margin-bottom: 0px; box-sizing: border-box; font-size: 1rem; line-height: 19.5px; text-indent: 0.28in; direction: ltr; unicode-bidi: embed; vertical-align: baseline;"><span style="font-family: 微软雅黑; padding: 0px; margin: 0px; box-sizing: border-box; color: rgb(13, 13, 13); font-size: 14px;"></span></p><p style="padding: 0px; margin-top: 0px; margin-bottom: 15px; box-sizing: border-box; font-size: 1rem; line-height: 1.75; text-indent: 0em; text-align: center;"><br/></p><p style="padding: 0px; margin-top: 0px; margin-bottom: 15px; box-sizing: border-box; font-size: 1rem; line-height: 1.75; text-indent: 0em; text-align: center;"><img src="https://auto.nuist.edu.cn/_upload/article/images/d4/c1/1cbf17dc442a83c2be1be91d83ee/8baed655-10e2-475a-a5ea-e4dfec862539.jpg" height="410px" width="700px" style="padding: 0px; margin: 0px auto 0.25rem; box-sizing: border-box; outline-style: none; border: 0px; object-fit: cover; display: block; vertical-align: top; float: none;"/></p><p style="padding: 0px; margin-top: 0px; margin-bottom: 15px; box-sizing: border-box; font-size: 1rem; line-height: 1.75; text-indent: 0em; text-align: center;"><img src="https://auto.nuist.edu.cn/_upload/article/images/d4/c1/1cbf17dc442a83c2be1be91d83ee/b9f4ee9a-c35a-4ce1-92de-f74ba18ed0d1.jpg" height="410px" width="700px" style="padding: 0px; margin: 0px auto 0.25rem; box-sizing: border-box; outline-style: none; border: 0px; object-fit: cover; display: block; vertical-align: top; float: none;"/></p><p style="padding: 0px; margin-top: 0px; margin-bottom: 15px; box-sizing: border-box; font-size: 1rem; line-height: 1.75; text-indent: 0em; text-align: center;"><img src="https://auto.nuist.edu.cn/_upload/article/images/d4/c1/1cbf17dc442a83c2be1be91d83ee/01537c4f-03df-4e6c-a3da-c428300fe0e2.jpg" height="410px" width="700px" style="padding: 0px; margin: 0px auto 0.25rem; box-sizing: border-box; outline-style: none; border: 0px; object-fit: cover; display: block; vertical-align: top; float: none;"/></p><p style="padding: 0px; margin-top: 0px; margin-bottom: 15px; box-sizing: border-box; font-size: 1rem; line-height: 1.75; text-indent: 0em; text-align: center;"><img src="https://auto.nuist.edu.cn/_upload/article/images/d4/c1/1cbf17dc442a83c2be1be91d83ee/118e0d29-03e1-4e12-8032-ae461e326d58.jpg" height="410px" width="700px" style="padding: 0px; margin: 0px auto 0.25rem; box-sizing: border-box; outline-style: none; border: 0px; object-fit: cover; display: block; vertical-align: top; float: none;"/></p><p style="padding: 0px; margin-top: 0px; margin-bottom: 15px; box-sizing: border-box; font-size: 1rem; line-height: 1.75; text-indent: 0em; text-align: center;"><img src="https://auto.nuist.edu.cn/_upload/article/images/d4/c1/1cbf17dc442a83c2be1be91d83ee/249b300d-d3e2-474a-8d76-6345f13559c0.jpg" height="410px" width="700px" style="padding: 0px; margin: 0px auto 0.25rem; box-sizing: border-box; outline-style: none; border: 0px; object-fit: cover; display: block; vertical-align: top; float: none;"/></p></div></div></div></div></div></div></div></div></div>',
+  ),
+  'catid' => '32',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:05:26+08:00] 127.0.0.1 GET xdnyjqrsys.cc/cms/cms/classlist/catid/32.html?page=1&limit=10
+[运行时间：0.060850s] [吞吐率：16.43req/s] [内存消耗：4,463.82kb] [文件加载：124]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/cms/cms/classlist/catid/32.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'catid' => '32',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:05:28+08:00] 127.0.0.1 GET xdnyjqrsys.cc/cms/cms/edit/catid/32.html?id=22&dialog=1
+[运行时间：0.079143s] [吞吐率：12.64req/s] [内存消耗：4,571.25kb] [文件加载：126]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/cms/cms/classlist/catid/32.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '22',
+  'dialog' => '1',
+  'catid' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\cms\view\cms\edit.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'cmsConfig',
+  4 => 'catid',
+  5 => 'id',
+  6 => 'fieldList',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:05:28+08:00] 127.0.0.1 GET xdnyjqrsys.cc/attachment/upload/upload/dir/images/from/ueditor.html?action=config&&noCache=1649826328231
+[运行时间：0.041010s] [吞吐率：24.38req/s] [内存消耗：2,618.95kb] [文件加载：104]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/cms/cms/edit/catid/32.html?id=22&dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1649826328231',
+  'dir' => 'images',
+  'from' => 'ueditor',
+)
+---------------------------------------------------------------
+
+[2022-04-13T13:29:07+08:00] 127.0.0.1 GET xdnyjqrsys.cc/
+[运行时间：0.239242s] [吞吐率：4.18req/s] [内存消耗：5,112.18kb] [文件加载：132]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\index.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'SEO',
+  7 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:29:20+08:00] 127.0.0.1 GET xdnyjqrsys.cc/cms/cms/classlist/catid/22.html
+[运行时间：0.093064s] [吞吐率：10.75req/s] [内存消耗：4,593.48kb] [文件加载：127]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/cms/cms/index/menuid/76.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '22',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\cms\view\cms\classlist.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'cmsConfig',
+  4 => 'string',
+  5 => 'catid',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:29:20+08:00] 127.0.0.1 GET xdnyjqrsys.cc/cms/cms/classlist/catid/22.html?page=1&limit=10
+[运行时间：0.077933s] [吞吐率：12.83req/s] [内存消耗：4,460.52kb] [文件加载：124]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/cms/cms/classlist/catid/22.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'catid' => '22',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:29:22+08:00] 127.0.0.1 GET xdnyjqrsys.cc/cms/cms/edit/catid/22.html?id=7&dialog=1
+[运行时间：0.081945s] [吞吐率：12.20req/s] [内存消耗：4,539.07kb] [文件加载：126]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/cms/cms/classlist/catid/22.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+  'dialog' => '1',
+  'catid' => '22',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\cms\view\cms\edit.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'cmsConfig',
+  4 => 'catid',
+  5 => 'id',
+  6 => 'fieldList',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:29:22+08:00] 127.0.0.1 GET xdnyjqrsys.cc/attachment/upload/upload/dir/images/from/ueditor.html?action=config&&noCache=1649827762450
+[运行时间：0.049529s] [吞吐率：20.19req/s] [内存消耗：2,618.95kb] [文件加载：104]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/cms/cms/edit/catid/22.html?id=7&dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1649827762450',
+  'dir' => 'images',
+  'from' => 'ueditor',
+)
+---------------------------------------------------------------
+
+[2022-04-13T13:29:24+08:00] 127.0.0.1 POST xdnyjqrsys.cc/cms/cms/edit/catid/22.html?id=7&dialog=1
+[运行时间：0.091950s] [吞吐率：10.88req/s] [内存消耗：4,572.87kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/cms/cms/edit/catid/22.html?id=7&dialog=1',
+  'origin' => 'http://xdnyjqrsys.cc',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '485',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+  'dialog' => '1',
+  'modelField' => 
+  array (
+    'id' => '7',
+    'catid' => '22',
+    'title' => 'banner1',
+    'flag' => 
+    array (
+      0 => '4',
+    ),
+    'keywords' => '',
+    'description' => '',
+    'tags' => '',
+    'listorder' => '100',
+    'status' => '1',
+    'get_introduce' => 'on',
+    'auto_thumb' => 'on',
+    'thumb' => '/uploads/images/20220412/5cff754be53283194c7328bbbe8e4c0a.jpg',
+    'inputtime' => '2022-04-12 09:19:00',
+    'hits' => '0',
+    'url' => '',
+  ),
+  'catid' => '22',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:29:26+08:00] 127.0.0.1 GET xdnyjqrsys.cc/
+[运行时间：0.107729s] [吞吐率：9.28req/s] [内存消耗：4,529.04kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\index.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'SEO',
+  7 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:29:28+08:00] 127.0.0.1 GET xdnyjqrsys.cc/cms/cms/classlist/catid/22.html?page=1&limit=10
+[运行时间：0.069146s] [吞吐率：14.46req/s] [内存消耗：4,460.52kb] [文件加载：124]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/cms/cms/classlist/catid/22.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'catid' => '22',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:30:40+08:00] 127.0.0.1 GET xdnyjqrsys.cc/
+[运行时间：0.098778s] [吞吐率：10.12req/s] [内存消耗：4,781.97kb] [文件加载：132]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\index.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'SEO',
+  7 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:41:49+08:00] 127.0.0.1 GET xdnyjqrsys.cc/
+[运行时间：0.130854s] [吞吐率：7.64req/s] [内存消耗：4,865.34kb] [文件加载：132]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\index.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'SEO',
+  7 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:41:52+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/40.html
+[运行时间：0.097428s] [吞吐率：10.26req/s] [内存消耗：4,601.75kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '40',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '40',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\list.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:41:53+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/44.html
+[运行时间：0.095113s] [吞吐率：10.51req/s] [内存消耗：4,828.84kb] [文件加载：134]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '44',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/40.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '44',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\list_picture.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:42:03+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/44.html
+[运行时间：0.094062s] [吞吐率：10.63req/s] [内存消耗：4,631.02kb] [文件加载：131]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '44',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/40.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '44',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\list_picture.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:42:22+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/44.html
+[运行时间：0.088997s] [吞吐率：11.24req/s] [内存消耗：4,824.62kb] [文件加载：134]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '44',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/40.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '44',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\list_picture.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:42:39+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/44.html
+[运行时间：0.089793s] [吞吐率：11.14req/s] [内存消耗：4,630.58kb] [文件加载：131]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '44',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/40.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '44',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\list_picture.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:42:47+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/44.html
+[运行时间：0.089233s] [吞吐率：11.21req/s] [内存消耗：4,630.58kb] [文件加载：131]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '44',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/40.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '44',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\list_picture.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:43:01+08:00] 127.0.0.1 GET xdnyjqrsys.cc/
+[运行时间：0.097961s] [吞吐率：10.21req/s] [内存消耗：4,521.80kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\index.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'SEO',
+  7 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:43:03+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/44.html
+[运行时间：0.089300s] [吞吐率：11.20req/s] [内存消耗：4,630.36kb] [文件加载：131]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '44',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '44',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\list_picture.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:43:12+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/44.html
+[运行时间：0.086547s] [吞吐率：11.55req/s] [内存消耗：4,630.76kb] [文件加载：131]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '44',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '44',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\list_picture.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:43:18+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/44.html
+[运行时间：0.084439s] [吞吐率：11.84req/s] [内存消耗：4,630.76kb] [文件加载：131]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '44',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '44',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\list_picture.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:43:25+08:00] 127.0.0.1 GET xdnyjqrsys.cc/shows/44/6.html
+[运行时间：0.113221s] [吞吐率：8.83req/s] [内存消耗：4,827.60kb] [文件加载：135]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'shows/<catid>/<id>',
+  'route' => 'cms/index/shows',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '44',
+    'id' => '6',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/44.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '44',
+  'id' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\show_picture.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'pages',
+  7 => 'id',
+  8 => 'catid',
+  9 => 'title',
+  10 => 'thumb',
+  11 => 'flag',
+  12 => 'keywords',
+  13 => 'description',
+  14 => 'tags',
+  15 => 'listorder',
+  16 => 'uid',
+  17 => 'username',
+  18 => 'sysadd',
+  19 => 'hits',
+  20 => 'inputtime',
+  21 => 'updatetime',
+  22 => 'url',
+  23 => 'status_text',
+  24 => 'status',
+  25 => 'did',
+  26 => 'content',
+  27 => 'category',
+  28 => 'readpoint',
+  29 => 'allow_visitor',
+  30 => 'top_parentid',
+  31 => 'arrparentid',
+  32 => 'SEO',
+  33 => 'page',
+  34 => 'modelid',
+) ]
+[ error ] [8]未定义变量: catname[D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\runtime\temp\78fed18569cf295ede7821e07e4eb0b4.php:99]
+---------------------------------------------------------------
+
+[2022-04-13T13:46:39+08:00] 127.0.0.1 GET xdnyjqrsys.cc/shows/44/6.html
+[运行时间：0.116703s] [吞吐率：8.57req/s] [内存消耗：4,635.25kb] [文件加载：132]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'shows/<catid>/<id>',
+  'route' => 'cms/index/shows',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '44',
+    'id' => '6',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/44.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '44',
+  'id' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\show_picture.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'pages',
+  7 => 'id',
+  8 => 'catid',
+  9 => 'title',
+  10 => 'thumb',
+  11 => 'flag',
+  12 => 'keywords',
+  13 => 'description',
+  14 => 'tags',
+  15 => 'listorder',
+  16 => 'uid',
+  17 => 'username',
+  18 => 'sysadd',
+  19 => 'hits',
+  20 => 'inputtime',
+  21 => 'updatetime',
+  22 => 'url',
+  23 => 'status_text',
+  24 => 'status',
+  25 => 'did',
+  26 => 'content',
+  27 => 'category',
+  28 => 'readpoint',
+  29 => 'allow_visitor',
+  30 => 'top_parentid',
+  31 => 'arrparentid',
+  32 => 'SEO',
+  33 => 'page',
+  34 => 'modelid',
+) ]
+[ error ] [8]未定义变量: catname[D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\runtime\temp\78fed18569cf295ede7821e07e4eb0b4.php:99]
+---------------------------------------------------------------
+
+[2022-04-13T13:46:40+08:00] 127.0.0.1 GET xdnyjqrsys.cc/
+[运行时间：0.107490s] [吞吐率：9.30req/s] [内存消耗：4,787.62kb] [文件加载：132]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/shows/44/6.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\index.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'SEO',
+  7 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:46:42+08:00] 127.0.0.1 GET xdnyjqrsys.cc/
+[运行时间：0.100188s] [吞吐率：9.98req/s] [内存消耗：4,522.22kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/shows/44/6.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\index.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'SEO',
+  7 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:47:47+08:00] 127.0.0.1 GET xdnyjqrsys.cc/
+[运行时间：0.104567s] [吞吐率：9.56req/s] [内存消耗：4,522.13kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\index.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'SEO',
+  7 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:47:49+08:00] 127.0.0.1 GET xdnyjqrsys.cc/
+[运行时间：0.094245s] [吞吐率：10.61req/s] [内存消耗：4,522.27kb] [文件加载：129]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'cms/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\index.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'SEO',
+  7 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:53:01+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin/config/setting/menuid/13.html
+[运行时间：0.097599s] [吞吐率：10.25req/s] [内存消耗：4,323.24kb] [文件加载：125]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '13',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\admin\view\config\setting.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'custom',
+  4 => 'groupArray',
+  5 => 'fieldList',
+  6 => 'group',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:53:04+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin/config/index/menuid/11.html
+[运行时间：0.049887s] [吞吐率：20.05req/s] [内存消耗：3,401.21kb] [文件加载：120]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '11',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\admin\view\config\index.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'custom',
+  4 => 'groupArray',
+  5 => 'group',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:53:04+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin/config/index/group/base.html?page=1&limit=10
+[运行时间：0.078934s] [吞吐率：12.67req/s] [内存消耗：4,275.27kb] [文件加载：123]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin/config/index/menuid/11.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'group' => 'base',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:53:07+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin/config/add/groupType/base.html?dialog=1
+[运行时间：0.083595s] [吞吐率：11.96req/s] [内存消耗：4,334.04kb] [文件加载：125]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin/config/index/menuid/11.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'groupType' => 'base',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\admin\view\config\add.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'custom',
+  4 => 'groupArray',
+  5 => 'fieldType',
+  6 => 'groupType',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:53:13+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin/config/add/groupType/base.html?dialog=1
+[运行时间：0.104396s] [吞吐率：9.58req/s] [内存消耗：4,343.59kb] [文件加载：126]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin/config/index/menuid/11.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'groupType' => 'base',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\admin\view\config\add.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'custom',
+  4 => 'groupArray',
+  5 => 'fieldType',
+  6 => 'groupType',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:53:42+08:00] 127.0.0.1 POST xdnyjqrsys.cc/admin/config/add/groupType/base.html?dialog=1
+[运行时间：0.100416s] [吞吐率：9.96req/s] [内存消耗：4,216.67kb] [文件加载：125]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin/config/add/groupType/base.html?dialog=1',
+  'origin' => 'http://xdnyjqrsys.cc',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '212',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'row' => 
+  array (
+    'group' => 'base',
+    'type' => 'image',
+    'title' => '内页内容图片',
+    'name' => 'web_site_image',
+    'value' => '',
+    'remark' => '',
+    'listorder' => '100',
+    'status' => '1',
+  ),
+  'groupType' => 'base',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:53:45+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin/config/index/group/base.html?page=1&limit=10
+[运行时间：0.096275s] [吞吐率：10.39req/s] [内存消耗：4,281.80kb] [文件加载：124]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin/config/index/menuid/11.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'group' => 'base',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:53:45+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin/config/setting/menuid/13.html
+[运行时间：0.066763s] [吞吐率：14.98req/s] [内存消耗：4,328.11kb] [文件加载：125]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '13',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\admin\view\config\setting.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'custom',
+  4 => 'groupArray',
+  5 => 'fieldList',
+  6 => 'group',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:53:53+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/20.html
+[运行时间：0.100600s] [吞吐率：9.94req/s] [内存消耗：4,718.59kb] [文件加载：133]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '20',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '20',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\page.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => '',
+  7 => 'catname',
+  8 => 'catdir',
+  9 => 'type',
+  10 => 'modelid',
+  11 => 'parentid',
+  12 => 'arrparentid',
+  13 => 'arrchildid',
+  14 => 'child',
+  15 => 'image',
+  16 => 'icon',
+  17 => 'description',
+  18 => 'url',
+  19 => 'items',
+  20 => 'setting',
+  21 => 'listorder',
+  22 => 'status',
+  23 => 'top_parentid',
+  24 => 'SEO',
+  25 => 'catid',
+  26 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义变量: title[D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\runtime\temp\49e1b6608ebfe73616f84641f0460e9c.php:107]
+[ error ] [8]未定义变量: content[D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\runtime\temp\49e1b6608ebfe73616f84641f0460e9c.php:109]
+---------------------------------------------------------------
+
+[2022-04-13T13:54:07+08:00] 127.0.0.1 POST xdnyjqrsys.cc/attachment/upload/upload/dir/images.html
+[运行时间：0.097693s] [吞吐率：10.24req/s] [内存消耗：4,140.44kb] [文件加载：121]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin/config/setting/menuid/13.html',
+  'origin' => 'http://xdnyjqrsys.cc',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydPq7li66p9Zs7elM',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'content-length' => '1055363',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+)
+[ info ] [ PARAM ] array (
+  'thumb' => '0',
+  'watermark' => '',
+  'id' => 'WU_FILE_0',
+  'name' => 'list-banner.png',
+  'type' => 'image/png',
+  'lastModifiedDate' => 'Wed Apr 13 2022 13:53:57 GMT+0800 (中国标准时间)',
+  'size' => '1054427',
+  'dir' => 'images',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:54:09+08:00] 127.0.0.1 POST xdnyjqrsys.cc/admin/config/setting/menuid/13.html
+[运行时间：0.083231s] [吞吐率：12.01req/s] [内存消耗：4,193.68kb] [文件加载：123]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin/config/setting/menuid/13.html',
+  'origin' => 'http://xdnyjqrsys.cc',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '660',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+)
+[ info ] [ PARAM ] array (
+  'modelField' => 
+  array (
+    'web_site_icp' => 'XX备案',
+    'web_site_image' => '/uploads/images/20220413/1a82cf9a1ff4b03f90371348aac0e381.png',
+    'web_site_address' => '地址： 成都市成洛大道2025号电话：028-84616300邮编：610106',
+    'web_site_copy' => '版权所有©现代农业机器人实验室',
+    'web_site_logo' => '/uploads/images/20220412/c14a68f9b8fa5a3fab11bbab73cbaccf.png',
+    'web_site_statistics' => '',
+  ),
+  'menuid' => '13',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:56:00+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin/config/index/menuid/11.html
+[运行时间：0.092364s] [吞吐率：10.83req/s] [内存消耗：4,318.99kb] [文件加载：126]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '11',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\admin\view\config\index.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'custom',
+  4 => 'groupArray',
+  5 => 'group',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:56:00+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin/config/index/group/base.html?page=1&limit=10
+[运行时间：0.060769s] [吞吐率：16.46req/s] [内存消耗：4,275.59kb] [文件加载：123]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin/config/index/menuid/11.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'group' => 'base',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:57:11+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/44.html
+[运行时间：0.094250s] [吞吐率：10.61req/s] [内存消耗：4,805.16kb] [文件加载：138]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '44',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/20.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '44',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\list_picture.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义变量: config[D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\runtime\temp\cfef789cb245802930d69318aba5c54f.php:85]
+[ error ] [0]致命错误: Function name must be a string[D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\runtime\temp\cfef789cb245802930d69318aba5c54f.php:85]
+---------------------------------------------------------------
+
+[2022-04-13T13:57:51+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/44.html
+[运行时间：0.098931s] [吞吐率：10.11req/s] [内存消耗：4,824.83kb] [文件加载：134]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '44',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/20.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '44',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\list_picture.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:57:57+08:00] 127.0.0.1 GET xdnyjqrsys.cc/admin/config/setting/menuid/13.html
+[运行时间：0.074427s] [吞吐率：13.44req/s] [内存消耗：4,328.25kb] [文件加载：125]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '13',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\application\admin\view\config\setting.html [ array (
+  0 => 'site',
+  1 => 'auth',
+  2 => 'userInfo',
+  3 => 'custom',
+  4 => 'groupArray',
+  5 => 'fieldList',
+  6 => 'group',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:58:00+08:00] 127.0.0.1 POST xdnyjqrsys.cc/admin/config/setting/menuid/13.html
+[运行时间：0.059892s] [吞吐率：16.70req/s] [内存消耗：4,193.41kb] [文件加载：123]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin/config/setting/menuid/13.html',
+  'origin' => 'http://xdnyjqrsys.cc',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '591',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+)
+[ info ] [ PARAM ] array (
+  'modelField' => 
+  array (
+    'web_site_icp' => 'XX备案',
+    'web_site_image' => '',
+    'web_site_address' => '地址： 成都市成洛大道2025号电话：028-84616300邮编：610106',
+    'web_site_copy' => '版权所有©现代农业机器人实验室',
+    'web_site_logo' => '/uploads/images/20220412/c14a68f9b8fa5a3fab11bbab73cbaccf.png',
+    'web_site_statistics' => '',
+  ),
+  'menuid' => '13',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:58:02+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/44.html
+[运行时间：0.106853s] [吞吐率：9.36req/s] [内存消耗：4,661.20kb] [文件加载：132]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '44',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/20.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '44',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\list_picture.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:58:59+08:00] 127.0.0.1 POST xdnyjqrsys.cc/attachment/upload/upload/dir/images.html
+[运行时间：0.080500s] [吞吐率：12.42req/s] [内存消耗：4,140.53kb] [文件加载：121]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin/config/setting/menuid/13.html',
+  'origin' => 'http://xdnyjqrsys.cc',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryglyv32xOsE3PhvSw',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'content-length' => '107440',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+)
+[ info ] [ PARAM ] array (
+  'thumb' => '0',
+  'watermark' => '',
+  'id' => 'WU_FILE_0',
+  'name' => 'd98edd0eda887e3aeddab21f5b034b67c2099d43.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Wed Apr 13 2022 13:19:46 GMT+0800 (中国标准时间)',
+  'size' => '106445',
+  'dir' => 'images',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:59:01+08:00] 127.0.0.1 POST xdnyjqrsys.cc/admin/config/setting/menuid/13.html
+[运行时间：0.077193s] [吞吐率：12.95req/s] [内存消耗：4,193.73kb] [文件加载：123]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/admin/config/setting/menuid/13.html',
+  'origin' => 'http://xdnyjqrsys.cc',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '660',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+)
+[ info ] [ PARAM ] array (
+  'modelField' => 
+  array (
+    'web_site_icp' => 'XX备案',
+    'web_site_image' => '/uploads/images/20220413/35999806b94c2d5e0278b50181f2d49b.jpg',
+    'web_site_address' => '地址： 成都市成洛大道2025号电话：028-84616300邮编：610106',
+    'web_site_copy' => '版权所有©现代农业机器人实验室',
+    'web_site_logo' => '/uploads/images/20220412/c14a68f9b8fa5a3fab11bbab73cbaccf.png',
+    'web_site_statistics' => '',
+  ),
+  'menuid' => '13',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:59:02+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/44.html
+[运行时间：0.108175s] [吞吐率：9.24req/s] [内存消耗：4,661.29kb] [文件加载：132]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '44',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/20.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '44',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\list_picture.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+---------------------------------------------------------------
+
+[2022-04-13T13:59:11+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/44.html
+[运行时间：0.081684s] [吞吐率：12.24req/s] [内存消耗：4,630.79kb] [文件加载：131]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '44',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/20.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '44',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\list_picture.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:59:12+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/44.html
+[运行时间：0.087097s] [吞吐率：11.48req/s] [内存消耗：4,631.23kb] [文件加载：131]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '44',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/20.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '44',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\list_picture.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+
+[2022-04-13T13:59:19+08:00] 127.0.0.1 GET xdnyjqrsys.cc/lists/44.html
+[运行时间：0.093998s] [吞吐率：10.64req/s] [内存消耗：4,630.79kb] [文件加载：131]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'lists/<catid>/<condition?>',
+  'route' => 'cms/index/lists',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'catid' => '44',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=56q14t20kq4e30sppesojo573e',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xdnyjqrsys.cc/lists/20.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xdnyjqrsys.cc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '44',
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\projects\xdnyjqrsys.top\public\..\templates\default\cms\list_picture.html [ array (
+  0 => 'site',
+  1 => 'userinfo',
+  2 => 'Member_group',
+  3 => 'Member_config',
+  4 => 'cms_config',
+  5 => 'siteurl',
+  6 => 'catname',
+  7 => 'catdir',
+  8 => 'type',
+  9 => 'modelid',
+  10 => 'parentid',
+  11 => 'arrparentid',
+  12 => 'arrchildid',
+  13 => 'child',
+  14 => 'image',
+  15 => 'icon',
+  16 => 'description',
+  17 => 'url',
+  18 => 'items',
+  19 => 'setting',
+  20 => 'listorder',
+  21 => 'status',
+  22 => 'top_parentid',
+  23 => 'SEO',
+  24 => 'catid',
+  25 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql

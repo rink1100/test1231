@@ -1,0 +1,21 @@
+<div class="list-nav">
+    <h5>{:getCategory($top_parentid,'catname')}</h5>
+    <ul>
+        {yzn module="cms" action="category" catid="$top_parentid" cache="3600" order="listorder DESC" num="10" return="data"}
+        {foreach $data as $key=>$vo }
+        <li>
+            <a href="{$vo.url}" class="transition {if $vo['id']==$catid}active{/if}">{$vo.catname}</a>
+        </li>
+        <!--判断是否有子栏目-->
+        <div class="subnav" style="padding-left: 10px;">
+            {yzn module="cms" action="category" catid="$vo['id']" cache="3600" order="listorder ASC" num="10" return="data"}
+            {volist name="data" id="vo"}
+            <li>
+            <a href="{$vo.url}" title="{$vo.catname}"  class="transition {if $vo['id']==$catid}active{/if}">{$vo.catname}</a></li>
+            {/volist}
+            {/yzn}
+        </div>
+        {/foreach}
+        {/yzn}
+    </ul>
+</div>

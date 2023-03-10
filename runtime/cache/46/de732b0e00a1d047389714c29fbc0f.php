@@ -1,0 +1,4 @@
+<?php
+//000000003600
+ exit();?>
+think_serialize:a:17:{s:2:"id";i:54;s:7:"catname";s:12:"人物介绍";s:6:"catdir";s:6:"member";s:4:"type";i:2;s:7:"modelid";i:3;s:8:"parentid";i:52;s:11:"arrparentid";s:4:"0,52";s:10:"arrchildid";s:2:"54";s:5:"child";i:0;s:5:"image";s:0:"";s:4:"icon";s:0:"";s:11:"description";s:12:"人物介绍";s:3:"url";s:14:"/lists/54.html";s:5:"items";i:4;s:7:"setting";a:6:{s:10:"meta_title";s:0:"";s:13:"meta_keywords";s:0:"";s:16:"meta_description";s:0:"";s:17:"category_template";s:21:"category_picture.html";s:13:"list_template";s:17:"list_picture.html";s:13:"show_template";s:17:"show_picture.html";}s:9:"listorder";i:100;s:6:"status";i:1;}

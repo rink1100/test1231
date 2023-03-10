@@ -1,0 +1,27 @@
+{include file="header" /}
+{neq name=":config('web_site_image')" value=""}
+<img src="{:config('web_site_image')}" class="topimage">
+{/neq}
+<div class="list-box clear w128">
+    {include file="sider" /}
+    <div class="list-r">
+        <div class="position">
+            <h5>{$catname}</h5>
+            <p>位置：
+                <a href="{$siteurl}">首页</a>
+                &gt;
+                {:catpos($catid)}
+            </p>
+            <div class="list-nav-icon"><img src="__IMG_PATH__/list-nav03.png"></div>
+        </div>
+        <div class="list03">
+            <div class="content-right">
+                <div class="title"><h2>{$title}</h2></div>
+                <div class="about" deep="4">
+                    {$content|raw}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{include file="footer" /}

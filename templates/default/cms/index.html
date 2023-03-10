@@ -1,0 +1,199 @@
+{include file="header" /}
+
+<div id="fullpage">
+    <div class="section active" id="section0">
+        <div class="secfp-content">
+            <div class="l">
+                <div class="intro-line-wrapper animate__animated animate__bounceInLeft">
+                </div>
+                <h1 class="anim-wrapper animate__animated animate__bounceInLeft animate__delay-03s"><span>Wow!</span></h1>
+                <h2 class="anim-wrapper animate__animated animate__bounceInLeft animate__delay-06s">手动阀手动阀士大夫士大夫士大夫撒旦发射点</h2>
+            </div>
+        </div>
+    </div>
+    <div class="section " id="section1">
+        <div class="secfp-content">
+            <div class="l">
+                <div class="intro-line-wrapper animate__animated animate__bounceInLeft">
+                </div>
+                <h1 class="anim-wrapper animate__animated animate__flipInX animate__delay-03s"><span>Wow!</span></h1>
+                <h2 class="anim-wrapper animate__animated animate__flipInX animate__delay-06s">手动阀手动阀士大夫士大夫士大夫撒旦发射点</h2>
+            </div>
+            <div class="r">
+                <video loop muted controls="false" data-autoplay type="video/mp4" data-src="http://www.w3schools.com/html/mov_bbb.mp4">
+                </video>
+            </div>
+       </div>
+    </div>
+    <div class="section" id="section2">
+        <div class="slide active" id="slide1">
+            <div class="intro aboutus">
+                <div class="title">
+                    <h1>关于我们</h1><span>ABOUT US</span>
+                </div>
+                <ul class="am-nav am-nav-pills about-nav">
+                    <li class="am-active"><a href="#3">团队简介</a></li>
+                    <li><a href="#3/1">人物介绍</a></li>
+                    <li><a href="#3/2">发展历程</a></li>
+                </ul>
+                <div class="aboutus-con">
+                    <div class="aboutus-l">
+                        <h2>{:getCategory(58,'catname')}</h2>
+                        <div class="con">{:getCategory(58,'description')} </div>
+                        <a class="more-btn" target="_blank" href="/lists/58.html">探索更多</a>
+                    </div>
+                    <div class="aboutus-r">
+                        <li>
+                            <div class="t">成立年限</div>
+                            <div class="n">{:config('web_site_years')}</div>
+                        </li>
+                        <li>
+                            <div class="t">覆盖行业</div>
+                            <div class="n">{:config('web_site_trade')}</div>
+                        </li>
+                        <li>
+                            <div class="t">合作企业</div>
+                            <div class="n">{:config('web_site_banks')}</div>
+                        </li>
+                        <li>
+                            <div class="t">投资项目</div>
+                            <div class="n">{:config('web_site_projects')}</div>
+                        </li>
+                    </div>
+                    <div class="aboutusbimg animate__animated animate__fadeInUpBig"></div>
+                </div>
+            </div>
+        </div>
+        <div class="slide " id="slide2">
+            <div class="intro aboutus">
+                <div class="title">
+                    <h1>关于我们</h1><span>ABOUT US</span>
+                </div>
+                <ul class="am-nav am-nav-pills about-nav">
+                    <li ><a href="#3">团队简介</a></li>
+                    <li class="am-active"><a href="#3/1">人物介绍</a></li>
+                    <li><a href="#3/2">发展历程</a></li>
+                </ul>
+                <div class="aboutus-con2">
+                    <div class="swiper swiper-member">
+                        <div class="swiper-wrapper">
+                            {yzn module="cms" cache="600" action="lists" catid="54" order="listorder DESC" num="10" return="data"}
+                            {volist name="data" id="vo" key="k"}
+                            <div class="swiper-slide">
+                                <img src="{$vo.thumb|default='https://via.placeholder.com/380x285'}">
+                                <div class="name line-1">{$vo.title}</div>
+                                <div class="desc line-3">{$vo.description|str_cut=###,60}</div>
+                            </div>
+                            {/volist}
+                            {/yzn}
+                        </div>
+                    </div>
+                </div>
+                <a class="more-btn" target="_blank" href="/lists/54.html">探索更多</a>
+            </div>
+        </div>
+        <div class="slide" id="slide3">
+            <div class="intro aboutus">
+                <div class="title">
+                    <h1>关于我们</h1><span>ABOUT US</span>
+                </div>
+                <ul class="am-nav am-nav-pills about-nav">
+                    <li ><a href="#3">团队简介</a></li>
+                    <li ><a href="#3/1">人物介绍</a></li>
+                    <li class="am-active"><a href="#3/2">发展历程</a></li>
+                </ul>
+                <div class="aboutus-con3">
+                    <div class="timeline">
+                        {yzn module="cms" cache="600" action="lists" catid="59" order="id DESC" return="data"}
+                        {volist name="data" id="vo" key="k"}
+                        <div class="li">
+                            <div class="time line-1">{$vo.time|date='y-m-d'}</div>
+                            <div class="point"></div>
+                            <div class="info line-1">{$vo.title}}</div>
+                        </div>
+                        {/volist}
+                        {/yzn}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section3">
+        <div class="intro owmner">
+            <div class="title">
+                <h1>团队荣誉</h1><span>Team honor</span>
+            </div>
+            <div class="">
+                {:getCategory(60,'description')}
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section4">
+        <div class="intro owmner aboutus">
+            <div class="title">
+                <h1>投资案例</h1><span>Investment case</span>
+            </div>
+            <div class="projects">
+                <div class="swiper swiper-project">
+                    <div class="swiper-wrapper">
+                        {yzn module="cms" cache="600" action="lists" catid="57" order="id DESC"  return="data"}
+                        {volist name="data" id="vo" key="k"}
+                        <div class="swiper-slide">
+                            <div class="project-view">
+                                <img src="{$vo.thumb|default='https://via.placeholder.com/380x285'}">
+                                <div class="name line-1">{$vo.title}</div>
+                                <div class="desc line-3">{$vo.description|str_cut=###,60}</div>
+                            </div>
+                        </div>
+                        {/volist}
+                        {/yzn}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section5">
+        <div class="intro aboutus">
+            <div class="title">
+                <h1>新闻咨询</h1><span>News</span>
+            </div>
+            <div class="news">
+                {yzn module="cms" cache="600" action="lists" catid="23" order="id DESC"  return="data"}
+                {volist name="data" id="vo" key="k"}
+                <div class="swiper-slide">
+                    <div class="project-view">
+                        <img src="{$vo.thumb|default='https://via.placeholder.com/380x285'}">
+                        <div class="name line-1">{$vo.title}</div>
+                        <div class="desc line-3">{$vo.description|str_cut=###,60}</div>
+                    </div>
+                </div>
+                {/volist}
+                {/yzn}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+            anchors: ['1', '2', '3', '4', '5','6'],
+            menu: '#menu',
+            // navigation: true,
+            animateAnchor: true,
+            // slidesNavigation: true,
+            lazyLoad: true,
+            credits: {enabled: false},
+            onLeave: function (index, d) {
+                $("#section"+d.index).find('.animate__animated').show()
+            },
+            afterLoad: function (index, d) {
+                if(index && $("#section"+index.index)){
+                    $("#section"+index.index).find('.animate__animated').hide()
+                }
+                // $('.animate__animated').hide()
+            }
+        });
+</script>
+
+{include file="footer" /}

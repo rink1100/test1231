@@ -1,0 +1,58 @@
+{include file="header" /}
+
+<div class="list-box clear w128">
+    <div class="list-nav">
+        <h5>搜索结果页</h5>
+    </div>
+    <div class="list-r">
+        <div class="position">
+            <p>位置： 搜索结果页
+            </p>
+            <div class="list-nav-icon"><img src="__IMG_PATH__/list-nav03.png"></div>
+        </div>
+        <div class="list03 ">
+            <ul class="honor-list clearfix" id="">
+                {volist name="list" id="vo" empty="<div class='tc font20 l-h80'>暂时没有数据</div>"}
+                <li class="item clearfix">
+
+                    <a href="{$vo.url}" title="{$vo.title}">
+                        <p>{$vo.title}</p>
+                        <i>{$vo.updatetime|date="m-d"}</i>
+                    </a>
+                </li>
+                {/volist}
+            </ul>
+        </div>
+        <!--S 分页-->
+        {$pages|raw}
+        <!--E 分页-->
+    </div>
+</div>
+</div>
+<script type="text/javascript">
+$(function() {
+    $(".select_showbox").click(function() {
+        $(".select_option").show();
+        $(this).addClass("active");
+    });
+
+    if ($('.select_option li').is('.selected')) {
+        $(".select_showbox").html($('.select_option li.selected').html());
+        $("#modelid").val($('.select_option li.selected').data('id'));
+    }
+
+    $(".select_option li").click(function() {
+        $("#modelid").val($(this).data('id'));
+        $(".select_showbox").html($(this).html());
+        $(".select_option").hide();
+        $(".select_showbox").removeClass("active");
+    });
+
+    $(".select_option li").hover(function() {
+        $(this).addClass("selected");
+    }, function() {
+        $(this).removeClass("selected");
+    });
+});
+</script>
+{include file="footer" /}

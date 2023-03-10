@@ -1,0 +1,4 @@
+<?php
+//000000000060
+ exit();?>
+think_serialize:a:3:{i:0;a:12:{s:2:"id";i:142;s:5:"title";s:12:"友情链接";s:4:"icon";s:12:"icon-lianjie";s:8:"parentid";i:45;s:3:"app";s:5:"links";s:10:"controller";s:5:"links";s:6:"action";s:5:"index";s:9:"parameter";s:0:"";s:6:"status";i:1;s:3:"tip";s:15:"友情链接！";s:6:"is_dev";i:0;s:9:"listorder";i:0;}i:1;a:12:{s:2:"id";i:124;s:5:"title";s:12:"表单管理";s:4:"icon";s:21:"icon-file-list-3-line";s:8:"parentid";i:45;s:3:"app";s:9:"formguide";s:10:"controller";s:9:"formguide";s:6:"action";s:5:"index";s:9:"parameter";s:0:"";s:6:"status";i:1;s:3:"tip";s:0:"";s:6:"is_dev";i:0;s:9:"listorder";i:3;}i:2;a:12:{s:2:"id";i:135;s:5:"title";s:9:"短消息";s:4:"icon";s:17:"icon-systemprompt";s:8:"parentid";i:45;s:3:"app";s:7:"message";s:10:"controller";s:7:"message";s:6:"action";s:5:"index";s:9:"parameter";s:0:"";s:6:"status";i:1;s:3:"tip";s:0:"";s:6:"is_dev";i:0;s:9:"listorder";i:3;}}
